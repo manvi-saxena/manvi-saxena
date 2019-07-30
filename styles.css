@@ -1,13 +1,15 @@
 body {
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-image: url(backgroundfade.PNG);
+  background-size: auto 1000px;
 }
 
 .sidebar {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -18,20 +20,22 @@ body {
   color: black;
   padding: 16px;
   text-decoration: none;
+  transition: 0.75s;
 }
  
 .sidebar a.active {
-  background-color: #4CAF50;
+  background-color: #135058;
   color: white;
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+  background-color: #F1F2B5;
+  color: #C9B7C1;
 }
 
 div.content {
   text-align:center;
+  color: #1A1B41;
   margin-left: 300px;
   margin-right: 100px;
   padding: 1px 16px;
@@ -61,3 +65,4 @@ div.experience{
     text-align: center;
     float: none;
   }
+    
